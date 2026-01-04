@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dino Dev Studios</title>
+
+  <!-- Load Comic Neue font -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+  <!-- Apply font and background -->
+  <style>
+
+
+
+@keyframes fadeNav {
+  from {
+    background-color: rgba(255, 239, 186, 1);
+  }
+  to {
+    background-color: rgba(255, 239, 186, 0.9);
+  }
+}
+    body {
+      font-family: 'Comic Neue', sans-serif;
+      background: linear-gradient(to bottom, #ffefba, #ffffff);
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      text-align: right;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #d35400;
+    }
+
+    section {
+      padding: 40px;
+    }
+
+    .hover-title {
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    .hover-title:hover {
+      color: #d35400;
+    }
+  </style>
+</head>
+
+<body>
+<!-- Sticky Animated Navigation Bar -->
+<nav style="
+  position: sticky;
+  top: 0;
+  background-color: #ffefba; /* Matches top of gradient */
+  padding: 20px;
+  z-index: 1000;
+  text-align: right;
+  animation: slideDown 0.6s ease-in-out;
+  transition: all 0.3s ease;
+">
+  <ul style="list-style: none; margin: 0; padding: 0;">
+    <li style="display: inline-block; margin-left: 20px;"><a href="#about">About Us</a></li>
+    <li style="display: inline-block; margin-left: 20px;"><a href="#news">News</a></li>
+    <li style="display: inline-block; margin-left: 20px;"><a href="#updates">Game Updates</a></li>
+    <li style="display: inline-block; margin-left: 20px;"><a href="#mission">Our Mission</a></li>
+    <li style="display: inline-block; margin-left: 20px;"><a href="#values">Our Core Values</a></li>
+    <li style="display: inline-block; margin-left: 20px;"><a href="#apply">Apply Now</a></li>
+    <li style="display: inline-block; margin-left: 20px;"><a href="#contact">Contact Us</a></li>
+
+</li>
+  </ul>
+</nav>
+</nav>
+
+
+  <!-- Navigation Bar -->
+ 
+  </nav>
+
+  <!-- Header -->
+  <header style="text-align: center;">
+    <h1>Dino Dev Studios</h1>
+    <h3>Innovating Roblox, one game at a time.</h3>
+  
+  </header>
+
+  <!-- Sections -->
+  <section id="about">
+    <h3 class="hover-title">About Dino Dev Studios:</h3>
+    <p>💬Dino Dev Studios is a passionate Roblox development group dedicated to creating fun, innovative, and high-quality games. Whether you're into teleporters, shop systems, custom UI, or premium gamepass features, our team brings ideas to life with creativity and precision.We believe in collaboration, learning, and pushing the boundaries of what's possible in Roblox. Our developers work together in a supportive environment where everyone—from beginners to experts—can grow their skills, share feedback, and build experiences players love.At Dino Dev Studios, we don’t just make games—we build worlds, tell stories, and create unforgettable adventures. Join us and be part of something epic</p>
+  </section>
+
+  <section>
+  <h3 class="hover-title">🧑‍💻 Meet the Team:</h3>
+
+  <!-- Flex container for team cards -->
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+  ">
+
+    <!-- Team Member 1 -->
+    <div style="
+      width: 220px;
+      text-align: center;
+      background: #fffdf5;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    "
+    onmouseover="this.style.transform='scale(1.1)'"
+    onmouseout="this.style.transform='scale(1)'">
+      <img src="https://via.placeholder.com/100" alt="Team Member" style="border-radius: 50%; margin-bottom: 10px;">
+      <h4 style="margin: 10px 0 5px;">CEO of Dino Dev Studios</h4>
+      <p style="font-size: 14px; color: #555;">Founder & Lead Scripter</p>
+    </div>
+
+    <!-- Team Member 2 -->
+    <div style="
+      width: 220px;
+      text-align: center;
+      background: #fffdf5;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    "
+    onmouseover="this.style.transform='scale(1.1)'"
+    onmouseout="this.style.transform='scale(1)'">
+      <img src="https://via.placeholder.com/100" alt="Team Member" style="border-radius: 50%; margin-bottom: 10px;">
+      <h4 style="margin: 10px 0 5px;">COMING SOON</h4>
+      <p style="font-size: 14px; color: #555;">UI Designer & Builder</p>
+    </div>
+
+    <!-- Team Member 3 -->
+    <div style="
+      width: 220px;
+      text-align: center;
+      background: #fffdf5;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    "
+    onmouseover="this.style.transform='scale(1.1)'"
+    onmouseout="this.style.transform='scale(1)'">
+      <img src="https://via.placeholder.com/100" alt="Team Member" style="border-radius: 50%; margin-bottom: 10px;">
+      <h4 style="margin: 10px 0 5px;">COMING SOON</h4>
+      <p style="font-size: 14px; color: #555;">Community Manager</p>
+    </div>
+
+  </div>
+</section>
+  <section id="news">
+    <h3 class="hover-title">News:</h3>
+    <p>📢 <strong>October 2025:</strong> Dino Dev Studios is officially live!</p>
+    <p>🛠️ <strong>Dev Spotlight:</strong> Our CEO is working on a Game!...</p>
+    <p>🦕 <strong>October 10, 17, 2025 National Fossil Day! </strong>  Celebrating ancient life and dino discoveries worldwide.
+ </p>
+  </section>
+  
+<section id="vote-section">
+  <h2>Vote for Your Top 3 Updates</h2>
+  <form id="vote-form">
+    <div class="vote-item">
+      <h3>🦖 Dino Mini Game</h3>
+      <p>Click to collect fossils, unlock badges!</p>
+      <input type="checkbox" name="vote" value="dino-game"> Vote
+      <div><strong>Votes:</strong> <span id="dino-game-percent">0%</span></div>
+    </div>
+
+    <div class="vote-item">
+      <h3>📊 Studio Stats Dashboard</h3>
+      <p>Live counters for members, games, and milestones.</p>
+      <input type="checkbox" name="vote" value="stats-dashboard"> Vote
+      <div><strong>Votes:</strong> <span id="stats-dashboard-percent">0%</span></div>
+    </div>
+
+    <div class="vote-item">
+      <h3>🗺️ Game Universe Explorer</h3>
+      <p>Interactive map of Dino Dev worlds and lore.</p>
+      <input type="checkbox" name="vote" value="universe-explorer"> Vote
+      <div><strong>Votes:</strong> <span id="universe-explorer-percent">0%</span></div>
+    </div>
+
+    <button type="submit">Submit Your Votes</button>
+  </form>
+</section>
+
+<script>
+  const voteCounts = {
+    "dino-game": 0,
+    "stats-dashboard": 0,
+    "universe-explorer": 0
+  };
+  let totalVotes = 0;
+
+  document.getElementById("vote-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const selected = Array.from(document.querySelectorAll('input[name="vote"]:checked'));
+
+    if (selected.length > 3) {
+      alert("You can only vote for up to 3 updates!");
+      return;
+    }
+
+    selected.forEach(input => {
+      voteCounts[input.value]++;
+      totalVotes++;
+    });
+
+    updatePercentages();
+    this.reset(); // optional: clears checkboxes after voting
+  });
+
+  function updatePercentages() {
+    for (let key in voteCounts) {
+      const percent = totalVotes > 0 ? ((voteCounts[key] / totalVotes) * 100).toFixed(1) : 0;
+      document.getElementById(`${key}-percent`).textContent = `${percent}%`;
+    }
+  }
+</script>
+  <section id="updates">
+    <h3 class="hover-title">Game Updates:</h3>
+    <p>🕹️ <strong>October 2025:</strong> Our dev team is prototyping a new Roblox experience...</p>
+
+    <section id="calendar" style="padding: 40px;">
+  <h3 class="hover-title">📅 Upcoming Events</h3>
+  <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+      <tr style="background-color: #f9f9f9;">
+        <th style="padding: 10px; border-bottom: 2px solid #d35400;">Date</th>
+        <th style="padding: 10px; border-bottom: 2px solid #d35400;">Event</th>
+        <th style="padding: 10px; border-bottom: 2px solid #d35400;">Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px;">Oct 18, 2025</td>
+        <td style="padding: 10px;">🎮 Game Jam Kickoff</td>
+        <td style="padding: 10px;">Start building your own mini-game with a theme revealed live on Discord!</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Oct 22, 2025</td>
+        <td style="padding: 10px;">🛠️ Dino Dev Workshop</td>
+        <td style="padding: 10px;"> How to Use Roblox Studio.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Oct 27, 2025</td>
+        <td style="padding: 10px;">💬 Community Q&A</td>
+        <td style="padding: 10px;">Ask the founders anything about Dino Dev Studios, future plans, and how to join projects.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px;">Oct 31, 2025</td>
+        <td style="padding: 10px;">🎃 Halloween Build-Off</td>
+        <td style="padding: 10px;">Spooky-themed building contest with prizes and shoutouts!</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+  </section>
+
+  <section id="mission">
+    <h3 class="hover-title">🎯 Our Mission</h3>
+    <p>      At Dino Dev Studios, our mission is to create immersive, high-quality Roblox games that spark imagination, encourage collaboration, and deliver unforgettable player experiences.</p>
+  </section>
+
+  <section id="values">
+    <h3 class="hover-title">💡 Our Core Values</h3>
+    <p>      We value creativity — turning bold ideas into playable worlds. We believe in collaboration, growing together by building together. Quality matters, so we polish every detail for a smooth, fun experience. Growth is key, and we support each team member as they level up their skills and confidence. Most importantly, we champion community — building games that bring people together and leave a lasting impact....</p>
+  </section>
+
+  <section id="apply">
+    <h3 class="hover-title">💼 Apply to Dino Dev Studios</h3>
+    <p>💼 Apply to Dino Dev Studios
+Ready to level up your Roblox dev journey?
+Dino Dev Studios is looking for passionate creators who want to build amazing games, learn advanced scripting, and collaborate with a team that’s all about innovation and fun.
+Whether you're a scripter, builder, UI designer, or just bursting with ideas — we want you on our squad.
+✅ What you’ll get:
+•   A supportive team that helps you grow fast
+•   Real experience working on live Roblox projects
+•   Creative freedom to pitch and build your own ideas
+•   Recognition for your work and a chance to shine in the community 
+<b>Join our applications server!
+<a href="https://discord.gg/H2dSNRKqEg" style="margin: 0 10px;">💬 Discord</a> </b>
+</p>
+
+<section id="suggestions" style="padding: 40px;">
+  <h3 class="hover-title">💡 Suggestion Box</h3>
+  <p>Have an idea for Dino Dev Studios? Drop it here! You can submit one suggestion every 5 minutes.</p>
+
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSfSFMnVNAD7enbPfGkwvS7QRKSCoTdb9sYY48yxitTJ_ncgEQ/viewform?usp=dialog" method="POST" target="_blank">
+  <textarea name="entry.1234567890" rows="4" cols="40" placeholder="Share your idea..."></textarea><br>
+  <button type="submit">Submit</button>
+</form>
+</script>
+
+  </section>
+
+  <section id="contact">
+    <h3 class="hover-title">📬 Contact Us</h3>
+    <p>Reach out via Discord or our Roblox group. We’d love to hear from you!</p>
+  </section>
+
+<section id="lore" style="padding: 40px;">
+  <h3 class="hover-title">🦕 The Lore of Dino Dev Studios</h3>
+  <p>
+    Long ago, in a forgotten corner of the Roblox multiverse, a group of curious dinosaurs discovered a glowing obelisk buried beneath the pixelated sands. 
+    This ancient relic wasn’t just a fossil — it was a gateway to creation. With it, they unlocked the power to build worlds, script logic, and shape imagination itself.
+  </p>
+
+  <p>
+    These weren’t ordinary dinos. They were thinkers, tinkerers, and dreamers. The <strong>Codeclaw</strong> tribe mastered Lua scripts. The <strong>UIsaurians</strong> crafted sleek interfaces from obsidian and light. 
+    And the <strong>Promo Raptors</strong> roared across the land, spreading word of their creations far and wide.
+  </p>
+
+  <p>
+    Together, they formed what would become <strong>Dino Dev Studios</strong> — a sanctuary for creators, a forge for innovation, and a playground for imagination. 
+    Every game they build is a new fossil in the timeline of Roblox history.
+  </p>
+
+  <p>
+    Legend says the obelisk still glows deep in the studio’s core, pulsing with every new idea, every line of code, and every player who joins the adventure.
+  </p>
+
+  <h4>🧬 Studio Mascot: Rexel</h4>
+  <p>
+    Rexel, the pixel-green dino with a jetpack and a headset, is the studio’s fearless mascot. He’s part coder, part explorer, and all heart. 
+    You’ll find him guiding new members, testing prototypes, and occasionally breaking the build (oops).
+  </p>
+
+  <h4>🌋 Hidden Lore</h4>
+  <p>
+    Rumors whisper of a secret dev terminal buried in the site — a place where only the most curious can unlock ancient scripts and unreleased prototypes. 
+    Will you find it?
+  </p>
+</section>
+<!-- Back to Top Button -->
+<a href="#top" style="
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #d35400;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+"
+onmouseover="this.style.backgroundColor='#e67e22'; this.style.transform='scale(1.1)'"
+onmouseout="this.style.backgroundColor='#d35400'; this.style.transform='scale(1)'">
+  🦖 Back to Top
+</a>
+
+<!-- Dino Quiz Trigger -->
+<p onclick="document.getElementById('dinoQuiz').style.display='block'; this.style.display='none';" style="cursor: pointer;">🦖 Click here to take the Dino Quiz!</p>
+
+<!-- Dino Quiz Block -->
+<div id="dinoQuiz" style="display: none; text-align: center; padding: 20px; border: 2px dashed #d35400; border-radius: 12px; max-width: 400px; margin: auto;">
+  <h3>🧩 Dino Trivia</h3>
+  <p>Which of these dinos is NOT real?</p>
+
+  <!-- Dino Answer Buttons -->
+  <button onclick="alert('Correct! 🥚 You found the easter egg!')" style="font-size: 30px; margin: 10px;">🦕</button>
+  <button onclick="alert('Try again!')" style="font-size: 30px; margin: 10px;">🦖</button>
+  <button onclick="alert('Try again!')" style="font-size: 30px; margin: 10px;">🦴</button>
+
+  <!-- Close Button -->
+  <br><br>
+  <button onclick="document.getElementById('dinoQuiz').style.display='none'; document.querySelector('p[onclick]').style.display='block';" style="margin-top: 10px; padding: 8px 16px; background-color: #d35400; color: white; border: none; border-radius: 6px;">❌ Close Quiz</button>
+</div>
+
+
+<section id="stats" style="padding: 40px; text-align: center;">
+  <h3 class="hover-title"> 📊 Dino Dev Stats</h3>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-top: 30px;">
+    
+ 
+
+
+    <div style="background-color: #fffdf5; padding: 20px; border-radius: 12px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <h4 style="margin-bottom: 10px;">👥 Total Visitors</h4>
+      <p style="font-size: 24px; font-weight: bold;">300</p>
+    </div>
+
+    <div style="background-color: #fffdf5; padding: 20px; border-radius: 12px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <h4 style="margin-bottom: 10px;">📝 Suggestions Submitted</h4>
+      <p style="font-size: 24px; font-weight: bold;">37</p>
+    </div>
+    
+
+    <div style="background-color: #fffdf5; padding: 20px; border-radius: 12px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <h4 style="margin-bottom: 10px;">🦖 Team Members</h4>
+      <p style="font-size: 24px; font-weight: bold;">1</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <!-- Paste this directly before your <footer> -->
+<div style="display:flex;align-items:center;justify-content:center;gap:18px;width:100%;box-sizing:border-box;padding:28px 20px;">
+  <span style="flex:1;height:0;border-top:3px dotted #ff8a3d;opacity:0.95;"></span>
+  <span style="font-weight:700;color:#ff7a1a;font-size:18px;letter-spacing:1px;padding:6px 20px;border-radius:6px;background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));">
+    Dino Dev Studios
+  </span>
+  <span style="flex:1;height:0;border-top:3px dotted #ff8a3d;opacity:0.95;"></span>
+</div>
+    <div align="center">
+      <h3>Dino Dev Studios</h3>
+      <p>Building worlds, telling stories, and creating unforgettable Roblox adventures.</p>
+      <p>
+       <footer 
+  <p>🦖 Dino Dev Studios © 2025</p>
+  <a href="https://discord.gg/YRYEshVTTH" style="margin: 0 10px;">💬 Discord</a>
+  <a href="https://www.youtube.com/@PixelForgeStudios-n7r" style="margin: 0 10px;">📺 YouTube</a>
+  <a href="https://roblox.com/groups" style="margin: 0 10px;">🎮 Roblox Group</a>
+  <a href="https://dinodevstudiosprotfoilio.carrd.co/" style="margin: 0 10px;">🧑‍🎨 Dino Dev CEO Portfolio</a>
+
+</footer>
+
+      </p>
+      <p>© 2025-2026 Dino Dev Studios. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
